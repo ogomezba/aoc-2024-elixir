@@ -20,6 +20,6 @@ defmodule AdventOfCode2024.MixProject do
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
-    [{:libgraph, "~> 0.16.0"}]
+    [{:libgraph, "~> 0.16.0"}, {:memoize, "~> 1.4"}]
   end
 end
